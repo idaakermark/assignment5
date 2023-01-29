@@ -1,0 +1,36 @@
+.skills-link {
+    color: var(--third-color);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+main {
+    margin: 4%;
+}
+
+#coverflow {
+    padding-top: 5%;
+}
+
+li p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .flip-items {
+        position: absolute;
+    }
+
+    li {
+        align-content: center;
+        height: 100%;
+        width: 80%;
+    }
+
+    .menu {
+        display: flex;
+    }
+}

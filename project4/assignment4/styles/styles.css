@@ -1,0 +1,55 @@
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+}
+
+body {
+    background-image: url(../images/space.background.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+main {
+    color: #FFF;
+    flex-grow: 1;
+    padding: 16px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+button {
+    background-color: #FFF;
+    border-radius: 40%;
+    box-shadow: #FC0 1px 0 10px;
+    margin: 2%; 
+    padding: 1%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+ 
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}

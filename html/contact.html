@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/typography.css">
+    <script src="../js/index.js" defer></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="contact-link">Contact</a>
+        </div>  
+    </header>
+
+<main class="contact-content">
+    <section class="form">
+        <form action="mailto:idaakermark@live.com" method="post" enctype="text/plain">
+            <h1>Let's talk!</h1>
+            <h3>Get in touch via the form below, or by emailing <span class="highlight">idaakermark@live.com</span></h3>
+            <label for="firstname">First name:</label>
+            <br>
+            <input type="text" id="firstname" name="firstname" required>
+            <br>
+            <br>
+            <label for="lastname">Last name:</label>
+            <br>
+            <input type="text" id="lastname" name="lastname" reguired>
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="text" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea type="text" id="message" name="message" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <br>
+        </form>
+    </section>
+
+    <div class="image-contact">
+        <img src="../images/img-contact.png">
+    </div>
+</main>
+
+<footer>
+    <p>Ida Åkermark</p>
+    <p>070 872 10 44</p>
+</footer>
+</body>
+</html>

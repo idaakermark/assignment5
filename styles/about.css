@@ -1,0 +1,25 @@
+.about-link {
+    color: var(--third-color);
+}
+
+main {
+    margin: 4%;
+}
+
+.about-content {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-content {
+        display: inline-table;
+        padding-top: 5%;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+

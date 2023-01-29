@@ -1,0 +1,54 @@
+.home-link {
+    color: var(--third-color);
+}
+
+.home-content {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    margin: 4%;
+}
+
+.intro {
+    color: var(--fourth-color);
+    padding-left: 6%;
+    
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h1 {
+    color: var(--third-color);
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.home-image {
+    align-self: center;
+}
+
+.learn-more-link {
+    color: var(--third-color);
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-content {
+        display: inline-table;
+        padding-top: 5%;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+
+
