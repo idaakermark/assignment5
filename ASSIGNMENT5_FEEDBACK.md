@@ -29,7 +29,8 @@ HTML
   Mail to Contact form ✅
 
   Links to specific projects opening in new windows ❌
-    Add  target="_blank" to the a tags
+    Add  target="_blank" to the a tags.
+    You also didn't include he individual project files, which isn't such a big deal for assessment but if you publish this site make sure you add them!
 
 CSS
   External CSS ✅
